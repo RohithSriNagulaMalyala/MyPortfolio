@@ -11,6 +11,7 @@ import Contact from "./pages/Contact/Contact";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
 import Tada from "react-reveal/Tada";
+import Roles from "./pages/Roles and Responsibilities/roles";
 
 function App() {
   const [theme] = useTheme();
@@ -24,6 +25,7 @@ function App() {
       <Techstack/>
       <Projects/>
       <WorkExp/>
+      <Roles/>
       <Contact/>
       </div>
       <div classNmae='footer mb-3 ms-3'>
