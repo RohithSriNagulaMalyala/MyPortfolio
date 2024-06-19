@@ -13,6 +13,8 @@ import { useTheme } from "./context/ThemeContext";
 import Tada from "react-reveal/Tada";
 import Roles from "./pages/Roles and Responsibilities/roles";
 import Activities from "./pages/Extra&CoCurricular/Extra&CoCurricular";
+import Certifications from "./pages/Certifications/certifications";
+import Achievements from "./pages/Acheivements/achievements";
 
 function App() {
   const [theme] = useTheme();
@@ -26,6 +28,8 @@ function App() {
       <Techstack/>
       <Projects/>
       <WorkExp/>
+      <Certifications/>
+      <Achievements/>
       <Roles/>
       <Activities/>
       <Contact/>
