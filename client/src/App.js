@@ -12,6 +12,7 @@ import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
 import Tada from "react-reveal/Tada";
 import Roles from "./pages/Roles and Responsibilities/roles";
+import Activities from "./pages/Extra&CoCurricular/Extra&CoCurricular";
 
 function App() {
   const [theme] = useTheme();
@@ -26,6 +27,7 @@ function App() {
       <Projects/>
       <WorkExp/>
       <Roles/>
+      <Activities/>
       <Contact/>
       </div>
       <div classNmae='footer mb-3 ms-3'>
