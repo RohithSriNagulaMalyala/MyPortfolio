@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 // import './App.css';
-
+// import Menu from "./components/Menus/Menus";
 import Layout from "./components/Layout/Layout";
 import About from "./pages/About/About";
 import Techstack from "./pages/Techstack/Techstack";
@@ -15,12 +15,14 @@ import Roles from "./pages/Roles and Responsibilities/roles";
 import Activities from "./pages/Extra&CoCurricular/Extra&CoCurricular";
 import Certifications from "./pages/Certifications/certifications";
 import Achievements from "./pages/Acheivements/achievements";
-
+import "./App.css"
+import Menus from "./components/Menus/Menus";
 function App() {
   const [theme] = useTheme();
   return (
     <>
     <div id={theme}>
+      <Menus/>
       <Layout/>
       <div classNa='container'>
       <About/>

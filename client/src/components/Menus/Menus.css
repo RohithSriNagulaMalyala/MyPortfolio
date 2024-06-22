@@ -21,11 +21,11 @@
 }
 
 .nav-link:hover {
-  color: #f29f67;
+  color: #10b981;
 }
 
 .nav-link .active {
-  color: #f29f67;
+  color: #10b981;
   text-decoration: none;
 }
 
@@ -39,6 +39,8 @@
     position: absolute;
     top: 60px;
     left: 0;
+    z-index: 999; /* Ensure it's above the rest of the content */
+    
   }
 
   .nav-items.active {

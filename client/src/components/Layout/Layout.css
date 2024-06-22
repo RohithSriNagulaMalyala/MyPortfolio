@@ -1,7 +1,7 @@
 /*  */
 .menubar {
   width: 100%;
-  background-color: #1e1e2c;
+  background-color: #032f3c;
   height: 60px;
   position: fixed;
   top: 0;
@@ -41,5 +41,8 @@
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
+  }
+  .container {
+    margin-top: 120px; /* Adjust for the menu bar height plus padding */
   }
 }

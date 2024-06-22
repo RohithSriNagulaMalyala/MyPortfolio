@@ -11,6 +11,8 @@ import {
   FcReadingEbook,
   FcVideoProjector,
 } from "react-icons/fc";
+import { TbCertificate } from "react-icons/tb";
+import { AiOutlineTeam ,AiOutlineTrophy, AiOutlineAppstore} from "react-icons/ai";
 
 const Menus = ({ toggle }) => {
   return (
@@ -51,6 +53,30 @@ const Menus = ({ toggle }) => {
           <Link to="work" spy={true} smooth={true} offset={-100} duration={100}>
             <FcPortraitMode />
             Work Experience
+          </Link>
+        </div>
+        <div className="nav-link">
+          <Link to="certifications" spy={true} smooth={true} offset={-100} duration={100}>
+            <TbCertificate />
+            Certifications
+          </Link>
+        </div>
+        <div className="nav-link">
+          <Link to="achievements" spy={true} smooth={true} offset={-100} duration={100}>
+            <AiOutlineTrophy/>
+            Acheivements
+          </Link>
+        </div>
+        <div className="nav-link">
+          <Link to="roles" spy={true} smooth={true} offset={-100} duration={100}>
+            <AiOutlineTeam/>
+            Roles
+          </Link>
+        </div>
+        <div className="nav-link">
+          <Link to="activities" spy={true} smooth={true} offset={-100} duration={100}>
+            <AiOutlineAppstore/>
+            Extra&CoCurricular Activities
           </Link>
         </div>
         <div className="nav-link">
